@@ -1,5 +1,8 @@
 package com.bridgelabz.employeepayrollapp.dto;
 
+import lombok.Data;
+
+@Data
 public class EmployeePayrollDTO {
     public String name;
     public long salary;
@@ -9,8 +12,8 @@ public class EmployeePayrollDTO {
         this.salary = salary;
     }
 
-    @Override
-    public String toString() {
-        return "EmployeePayrollDTO [name=" + name + ", salary=" + salary + "]";
-    }
+//    @Override
+//    public String toString() {
+//        return "EmployeePayrollDTO [name=" + name + ", salary=" + salary + "]";
+//    }
 }
