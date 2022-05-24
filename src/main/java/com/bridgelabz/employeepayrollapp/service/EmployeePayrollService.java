@@ -3,10 +3,13 @@ package com.bridgelabz.employeepayrollapp.service;
 import com.bridgelabz.employeepayrollapp.Exception.EmployeePayrollException;
 import com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO;
 import com.bridgelabz.employeepayrollapp.model.EmployeePayrollData;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+@Slf4j
+
 @Service
 public class EmployeePayrollService implements IEmployeePayrollService{
     private List<EmployeePayrollData> employeePayrollList = new ArrayList<>();

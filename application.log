@@ -218,3 +218,37 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2022-05-24 17:01:08.802  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.871 seconds (JVM running for 9235.648)
 2022-05-24 17:01:08.802  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in COMMON Environment
 2022-05-24 17:01:43.131  WARN 10844 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDTO> com.bridgelabz.employeepayrollapp.controller.EmployeePayrollController.createEmployeePayrollData(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO) with 2 errors: [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [50]; codes [Min.employeePayrollDTO.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],500]; default message [Min Wage should be more than 500]] [Field error in object 'employeePayrollDTO' on field 'name': rejected value [ramesh]; codes [Pattern.employeePayrollDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@27489d7f,^[A-Z]{1}[a-zA-Z\s]{2,}$]; default message [Employee name Invalid]] ]
+2022-05-24 17:12:42.283  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Welcome to Employee Payroll App
+2022-05-24 17:12:42.345  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on DESKTOP-4ORA393 with PID 10844 (C:\Users\nani\Documents\SpringBoot\EmployeePayrollApp\target\classes started by root in C:\Users\nani\Documents\SpringBoot\EmployeePayrollApp)
+2022-05-24 17:12:42.345 DEBUG 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-24 17:12:42.345  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 17:12:43.555  WARN 10844 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-24 17:12:43.790  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 1.495 seconds (JVM running for 9930.635)
+2022-05-24 17:12:43.790  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in COMMON Environment
+2022-05-24 17:12:47.381  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Welcome to Employee Payroll App
+2022-05-24 17:12:47.444  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on DESKTOP-4ORA393 with PID 10844 (C:\Users\nani\Documents\SpringBoot\EmployeePayrollApp\target\classes started by root in C:\Users\nani\Documents\SpringBoot\EmployeePayrollApp)
+2022-05-24 17:12:47.444 DEBUG 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-24 17:12:47.444  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 17:12:48.339  WARN 10844 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-24 17:12:48.591  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 1.207 seconds (JVM running for 9935.444)
+2022-05-24 17:12:48.607  INFO 10844 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in COMMON Environment
+2022-05-24 17:12:49.116  INFO 8016 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on DESKTOP-4ORA393 with PID 8016 (C:\Users\nani\Documents\SpringBoot\EmployeePayrollApp\target\classes started by root in C:\Users\nani\Documents\SpringBoot\EmployeePayrollApp)
+2022-05-24 17:12:49.132 DEBUG 8016 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-24 17:12:49.132  INFO 8016 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-05-24 17:12:52.394  WARN 8016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-24 17:12:52.839  WARN 8016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-24 17:12:52.870  WARN 8016 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-05-24 17:12:52.917 ERROR 8016 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
