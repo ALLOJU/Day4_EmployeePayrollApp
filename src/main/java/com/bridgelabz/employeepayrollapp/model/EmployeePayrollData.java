@@ -21,7 +21,7 @@ public @Data class EmployeePayrollData {
     @Column(name = "gender")
     private String gender;
     @Column(name = "start_date")
-    private Date startDate;
+    private LocalDate startDate;
     @Column(name = "note")
     private String note;
     @Column(name = "profile_pic")
